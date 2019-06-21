@@ -1,13 +1,13 @@
 {
-  "name": "googleapis-nodejs-cloudbuild",
+  "name": "@sharkcell/googleapis-nodejs-cloudbuild",
   "description": "Google Cloud Build Client Library for Node.js (unofficial)",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "Apache-2.0",
   "author": "vizzuality-research",
   "engines": {
     "node": ">=6.0.0"
   },
-  "repository": "vizzuality/googleapis-nodejs-cloudbuild",
+  "repository": "AndreasClausen/googleapis-nodejs-cloudbuild",
   "main": "./build/src/index.js",
   "types": "./build/src/index.d.ts",
   "files": [
@@ -27,7 +27,8 @@
     "cloud build"
   ],
   "contributors": [
-    "Sergio Gordillo <sgordillogallardo@gmail.com>"
+    "Sergio Gordillo <sgordillogallardo@gmail.com>",
+    "Andreas Clausen <andreas.clausen@hotmail.com>"
   ],
   "scripts": {
     "lint": "eslint samples/",
